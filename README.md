@@ -27,10 +27,12 @@ public class hour {
             else {
                 System.out.println("0" + rehour % 24 + ":" + remin);
             }
-            } else {
+        } else {
             if (remin < 10)
                 System.out.println("0" + rehour % 24 + ":0" + remin);
             else {
                 System.out.println("0" + rehour % 24 + ":" + remin);
+            }
+        }
+    }
 }
-}}}
